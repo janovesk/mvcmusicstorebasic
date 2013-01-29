@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F3E5F46A-FB94-4B61-94BF-2CEE4A17A5E3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMusicStore", "MvcMusicStore\MvcMusicStore.csproj", "{32DCD27D-A84C-4250-B657-408B3620A9AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartService", "ShoppingCartService\ShoppingCartService.csproj", "{80144ECD-62F9-4077-8C9C-3499AC8CB715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartService.Commands", "ShoppingCartService.Commands\ShoppingCartService.Commands.csproj", "{33042FFF-CEA7-458E-9A4C-768A61501FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartService.Events", "ShoppingCart.Events\ShoppingCartService.Events.csproj", "{F9407307-527F-4127-A364-7FD7C4BE1DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentService", "ShipmentService\ShipmentService.csproj", "{C8551A57-7CCB-45EB-BB8B-E00AFCB9FFBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentService.Commands", "ShipmentService.Commands\ShipmentService.Commands.csproj", "{28DBDC9A-E29F-4F71-84E1-FB443FBF489A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32DCD27D-A84C-4250-B657-408B3620A9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DCD27D-A84C-4250-B657-408B3620A9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DCD27D-A84C-4250-B657-408B3620A9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DCD27D-A84C-4250-B657-408B3620A9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80144ECD-62F9-4077-8C9C-3499AC8CB715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80144ECD-62F9-4077-8C9C-3499AC8CB715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80144ECD-62F9-4077-8C9C-3499AC8CB715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80144ECD-62F9-4077-8C9C-3499AC8CB715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33042FFF-CEA7-458E-9A4C-768A61501FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33042FFF-CEA7-458E-9A4C-768A61501FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33042FFF-CEA7-458E-9A4C-768A61501FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33042FFF-CEA7-458E-9A4C-768A61501FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9407307-527F-4127-A364-7FD7C4BE1DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9407307-527F-4127-A364-7FD7C4BE1DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9407307-527F-4127-A364-7FD7C4BE1DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9407307-527F-4127-A364-7FD7C4BE1DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8551A57-7CCB-45EB-BB8B-E00AFCB9FFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8551A57-7CCB-45EB-BB8B-E00AFCB9FFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8551A57-7CCB-45EB-BB8B-E00AFCB9FFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8551A57-7CCB-45EB-BB8B-E00AFCB9FFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DBDC9A-E29F-4F71-84E1-FB443FBF489A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DBDC9A-E29F-4F71-84E1-FB443FBF489A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DBDC9A-E29F-4F71-84E1-FB443FBF489A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DBDC9A-E29F-4F71-84E1-FB443FBF489A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

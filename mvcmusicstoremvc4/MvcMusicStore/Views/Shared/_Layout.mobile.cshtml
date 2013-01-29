@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/jquery.mobile-1.1.0.css" />
+    <script src="~/Scripts/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script>
+        $(document).bind("mobileinit", function () {
+            //$.mobile.ajaxEnabled = false;
+        });
+    </script>
+    <script type="text/javascript" src="~/Scripts/jquery.mobile-1.1.0.js"></script>
+    <script>
+
+        $("#Store").live("pageinit", function () {
+            $(this).bind("swipeleft", function () {
+                $("#genrelist").append($("<li>swipeleft</li>"))
+                               .listview("refresh");
+            });
+        });
+
+    </script>
+</head>
+<body>
+        <div data-role="page" id="@ViewBag.PageId">
+    
+        <div id="header" data-role="header">
+            <h1>MVC MUSIC</h1>
+            <a href="@Url.Content("~/")" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="@Url.Action("About", "Home")" data-icon="info" data-iconpos="notext" data-rel="dialog">About</a>
+            <div data-role="navbar">
+                <ul id="navlist">
+                    <li class="first"><a href="@Url.Content("~")" id="current">Home</a></li>
+                    <li><a href="@Url.Content("~/Store/")">Store</a></li>
+                    <li>
+                        @{Html.RenderAction("CartSummary", "ShoppingCart");}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="main" data-role="content">
+            @RenderBody()
+        </div>
+
+        <div id="footer" data-role="footer">
+            <h1>built with <a href="http://asp.net/mvc" data-ajax="false">ASP.NET MVC 4</a></h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿@model List<MvcMusicStore.Models.Album>
+@{
+    ViewBag.Title = "ASP.NET MVC Music Store";
+}
+
+<h3><em>Fresh</em> off the grill</h3>
+
+<div id="album-list" data-role="collapsible-set">
+    @foreach (var album in Model)
+    {
+        <div data-role="collapsible">
+            <h3>@album.Title</h3>
+            <div  data-theme="b">
+                <div >
+                    <img alt="@album.Title" src="@album.AlbumArtUrl" />
+                </div>
+                <div>
+                    <a href="@Url.Action("Details", "Store", new { id = album.AlbumId })" data-role="button" data-theme="b" data-icon="star">Buy now!</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

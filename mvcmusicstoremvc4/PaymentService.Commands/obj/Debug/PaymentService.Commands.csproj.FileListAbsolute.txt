@@ -1,0 +1,7 @@
+C:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\PaymentService.Commands\bin\Debug\PaymentService.Commands.dll
+C:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\PaymentService.Commands\bin\Debug\PaymentService.Commands.pdb
+C:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\PaymentService.Commands\bin\Debug\NServiceBus.dll
+C:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\PaymentService.Commands\bin\Debug\NServiceBus.pdb
+C:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\PaymentService.Commands\bin\Debug\NServiceBus.xml
+C:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\PaymentService.Commands\obj\Debug\PaymentService.Commands.dll
+C:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\PaymentService.Commands\obj\Debug\PaymentService.Commands.pdb

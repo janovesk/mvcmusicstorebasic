@@ -1,0 +1,21 @@
+﻿@model MvcMusicStore.Models.ShippingAddress
+
+@{
+    ViewBag.Title = "Address";
+}
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm("Address", "Shipping")) {
+    
+    <h2>Shipping</h2>
+    <fieldset>
+        <legend>Shipping Information for order @ViewBag.OrderId of cost @ViewBag.Amount</legend>
+
+        @Html.EditorForModel()
+        @Html.Hidden("OrderId", (string)ViewBag.OrderId)
+        @Html.Hidden("Amount", (string)ViewBag.Amount)
+    </fieldset>
+    <input type="submit" value="Continue to payment" />
+}

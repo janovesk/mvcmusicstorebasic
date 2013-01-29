@@ -1,0 +1,23 @@
+2013-01-20 18:25:58,211 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-20 18:25:58,466 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-20 18:25:58,471 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-20 18:25:58,481 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-20 18:25:58,483 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-20 18:26:12,047 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue timmy\private$\shoppingcartservice.retries does not exist.
+2013-01-20 18:26:12,048 [1] INFO  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Going to create queue: timmy\private$\shoppingcartservice.retries
+2013-01-20 18:26:12,168 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue timmy\private$\shoppingcartservice.timeouts does not exist.
+2013-01-20 18:26:12,169 [1] INFO  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Going to create queue: timmy\private$\shoppingcartservice.timeouts
+2013-01-20 18:26:12,236 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue timmy\private$\shoppingcartservice.timeoutsdispatcher does not exist.
+2013-01-20 18:26:12,237 [1] INFO  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Going to create queue: timmy\private$\shoppingcartservice.timeoutsdispatcher
+2013-01-20 18:26:12,333 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue timmy\private$\shoppingcartservice does not exist.
+2013-01-20 18:26:12,335 [1] INFO  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Going to create queue: timmy\private$\shoppingcartservice
+2013-01-20 18:38:43,918 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-20 18:38:44,175 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-20 18:38:44,180 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-20 18:38:44,190 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-20 18:38:44,191 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-20 18:40:56,250 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-20 18:40:56,494 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-20 18:40:56,500 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-20 18:40:56,509 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-20 18:40:56,511 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c

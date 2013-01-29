@@ -1,0 +1,58 @@
+2013-01-23 20:13:07,167 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-23 20:13:07,426 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-23 20:13:07,431 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-23 20:13:07,441 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:13:07,443 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:14:14,935 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-23 20:14:15,180 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-23 20:14:15,185 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-23 20:14:15,194 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:14:15,195 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:16:25,078 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-23 20:16:25,406 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-23 20:16:25,413 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-23 20:16:25,427 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:16:25,430 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:17:35,129 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-23 20:17:35,433 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-23 20:17:35,440 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-23 20:17:35,466 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:17:35,469 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:21:13,011 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-23 20:21:13,259 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-23 20:21:13,263 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-23 20:21:13,273 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:21:13,274 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:21:30,430 [Worker.11] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=200fdfe7-f3f5-4e8c-9f44-dcc9cd226488\1961995
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_5\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\TeamCity\buildAgent\work\nsb.master_5\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_5\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2013-01-23 20:21:32,740 [Worker.11] WARN  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - AddToCartMessageHandler failed handling message.
+System.TypeInitializationException: The type initializer for 'ShoppingCartService.Raven' threw an exception. ---> System.UriFormatException: Invalid URI: Invalid port specified.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at Raven.Client.Document.DocumentStore.InitializeInternal() in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Document\DocumentStore.cs:line 576
+   at Raven.Client.Document.DocumentStore.Initialize() in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Document\DocumentStore.cs:line 424
+   at ShoppingCartService.Raven.InitializeNewStore() in c:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\ShoppingCartService\Raven.cs:line 12
+   at ShoppingCartService.Raven..cctor() in c:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\ShoppingCartService\Raven.cs:line 7
+   --- End of inner exception stack trace ---
+   at ShoppingCartService.Raven.get_DocumentStore()
+   at ShoppingCartService.AddToCartMessageHandler.Handle(AddToShoppingCartCommand message) in c:\Source\mvcmusicstoremvc4\mvcmusicstoremvc4\ShoppingCartService\AddToCartMessageHandler.cs:line 13
+2013-01-23 20:21:32,792 [Worker.11] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=200fdfe7-f3f5-4e8c-9f44-dcc9cd226488\1961995
+NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException: Exception of type 'NServiceBus.Unicast.Transport.TransportMessageHandlingFailedException' was thrown.
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_5\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1331
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\TeamCity\buildAgent\work\nsb.master_5\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1248
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_5\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2013-01-23 20:23:52,941 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-23 20:23:53,199 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-23 20:23:53,204 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-23 20:23:53,214 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 20:23:53,216 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 21:00:40,346 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-23 21:00:40,606 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-23 21:00:40,611 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Falling back to run in Basic1 license mode.
+2013-01-23 21:00:40,620 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-23 21:00:40,622 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
